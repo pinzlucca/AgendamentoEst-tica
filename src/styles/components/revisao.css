@@ -1,0 +1,18 @@
+.revisao{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.basic-multi-select{
+    padding: 10px;
+}

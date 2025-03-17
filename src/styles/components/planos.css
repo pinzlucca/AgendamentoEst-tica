@@ -1,0 +1,80 @@
+.info-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: var(--font2);
+    text-align: center;
+}
+
+.servicos-list{
+    background-color: #EFEBE7;
+    border-radius: 5px;
+
+    min-width: 320px;
+    height: 25px;
+    padding: 7px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 11px;
+
+}
+
+.precos-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas de tamanhos iguais */
+    gap: 25px;
+}
+
+.precos{
+    background-color: #ffffff;
+    padding: 10px;
+} .precos:hover{
+    cursor: pointer;
+}
+
+.precos.selecionado {
+    border: 2px solid green; /* Borda verde para o item selecionado */
+    font-weight: bold;
+}
+
+.precos span{
+    font-size: 1.1rem;
+}
+
+.standart{
+    background-color: #b4b4b4;
+}
+
+.gold{
+    background-color: #fbff00;
+}
+
+.diamond{
+    background-color: #d8c0ff;
+}
+
+
+.agendar{
+    font-family: var(--font1);
+    font-size: 1rem;
+    padding: 20px;
+    margin-top: 1rem;
+
+    border-style: none;
+} .agendar:hover{
+    cursor: pointer;
+}
