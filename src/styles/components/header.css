@@ -31,7 +31,6 @@ header img{
     color: var(--text);
     cursor: pointer;
 
-    text-transform: uppercase;
     position: relative;
 }
 

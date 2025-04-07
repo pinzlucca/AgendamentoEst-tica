@@ -78,3 +78,20 @@ h1{
 } .agendar:hover{
     cursor: pointer;
 }
+
+.back{
+    border-style:solid;
+    border-radius: 5%;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 700;
+
+    display: flex;
+    gap: 2px;
+    align-items: center;
+
+    transition: 0.5s;
+} .back:hover{
+    cursor: pointer;
+    color: rgb(0, 31, 71);
+}

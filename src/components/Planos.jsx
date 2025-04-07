@@ -1,4 +1,5 @@
 import { useState } from "react";
+import seta from '../assets/seta.png';
 import { useNavigate } from "react-router-dom";
 import "../styles/components/planos.css";
 import certo from "../assets/certo.PNG";
@@ -69,6 +70,7 @@ const Planos = ({plano}) => {
 
   return (
     <div className="info-container">
+      <button className="back" onClick={() => navigate(-1)}> Voltar <img src={seta} alt="" width="15px"/> </button>
       <h1>PLANO {planoSelecionado.nome.toUpperCase()}</h1>
       <p>{planoSelecionado.descricao}</p>
 

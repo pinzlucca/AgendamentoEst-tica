@@ -44,12 +44,12 @@ export default function App() {
         element={
             <>
               <div>
-                <h1>Escolha seu Plano:</h1>
+                {/* <h1>Escolha seu Plano:</h1>
                   <div className="btn-container">
                     <button onClick={() => selecionarPlano("standard")}>Standard</button>
                     <button onClick={() => selecionarPlano("gold")}>Gold</button>
                     <button onClick={() => selecionarPlano("diamond")}>Diamond</button>
-                  </div>
+                  </div> */}
                 <PlanosPage />
               </div>  
             </>} 

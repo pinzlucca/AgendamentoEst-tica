@@ -16,3 +16,22 @@
 .basic-multi-select{
     padding: 10px;
 }
+
+.finalizar-btn{
+    margin-top: 0.5rem;
+
+    max-width: 130px;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: rgb(0, 56, 129);
+    transition: .2s;
+    border-style: none;
+    border-radius: 5%;
+
+    padding: 10px;
+}
+
+.title-pedido{
+    font-size: 1.7rem;
+    font-family: var(--font2);
+}
