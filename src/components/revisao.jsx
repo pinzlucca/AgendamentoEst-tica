@@ -19,7 +19,7 @@ const Revisao = ({ pedido }) => {
     <div className='revisao'>
       <h1 className=''>Revisão do Pedido</h1>
       <p ><strong className='title-pedido'>Plano:</strong> {pedido?.plano.toUpperCase()}</p>
-      <p ><strong className='title-pedido'>Modelo do carro:</strong> {pedido?.modelo}</p>
+      <p ><strong className='title-pedido'>Modelo do carro:</strong> {pedido?.modelo.toUpperCase()}</p>
       <p ><strong className='title-pedido'>Preço:</strong> {pedido?.preco}</p>
 
       <h2 className=''>Serviços inclusos:</h2>

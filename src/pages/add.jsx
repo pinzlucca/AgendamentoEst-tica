@@ -1,8 +1,9 @@
-
+import { useLocation } from "react-router-dom";
 import Final from "../components/final";
 
-const add = () => {
-  const pedido = location.state || {}; // Garante que pedido não seja undefined
+const Add = () => { // <- Comece com letra maiúscula
+  const location = useLocation();
+  const pedido = location.state || {};
 
   return (
     <div>
@@ -11,4 +12,4 @@ const add = () => {
   );
 };
 
-export default add;
+export default Add;

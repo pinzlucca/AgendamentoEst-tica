@@ -1,8 +1,6 @@
-
-
 const body = () => {
   return (
-    <div>bodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybody</div>
+    <div>Soniccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</div>
   )
 }
 

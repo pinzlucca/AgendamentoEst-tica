@@ -65,7 +65,15 @@ const Planos = ({plano}) => {
       alert("Por favor, selecione um modelo antes de agendar.");
       return;
     }
-    navigate("/step1", { state: { plano, modeloSelecionado, servicos: planoSelecionado.servicos, preco: planoSelecionado.precos[modeloSelecionado] } });
+    navigate("/step1", {
+      state: {
+        plano,
+        modelo: modeloSelecionado, // <- Corrigido aqui!
+        servicos: planoSelecionado.servicos,
+        preco: planoSelecionado.precos[modeloSelecionado],
+      }
+    });
+    
   };
 
   return (
